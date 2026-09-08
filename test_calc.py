@@ -12,3 +12,7 @@ def test_multiply():
 def test_is_even():
     assert is_even(4) is True
     assert is_even(3) is False
+
+
+def test_subtract():
+    assert subtract(5, 3) == 2

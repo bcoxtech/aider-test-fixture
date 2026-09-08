@@ -1,4 +1,4 @@
-from calc import add, multiply, is_even
+from calc import add, multiply, is_even, subtract
 
 
 def test_add():

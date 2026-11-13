@@ -1,4 +1,4 @@
-from calc import add, multiply, is_even
+from calc import add, multiply, is_even, square
 
 
 def test_add():
@@ -12,3 +12,9 @@ def test_multiply():
 def test_is_even():
     assert is_even(4) is True
     assert is_even(3) is False
+
+
+def test_square():
+    assert square(5) == 25
+    assert square(-3) == 9
+    assert square(0) == 0

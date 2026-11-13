@@ -8,3 +8,7 @@ def multiply(a, b):
 
 def is_even(n):
     return n % 2 == 0
+
+
+def square(x):
+    return x * x

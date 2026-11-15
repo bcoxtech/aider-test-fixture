@@ -1,4 +1,4 @@
-from calc import add, multiply, is_even
+from calc import add, multiply, is_even, power
 
 
 def test_add():
@@ -12,3 +12,8 @@ def test_multiply():
 def test_is_even():
     assert is_even(4) is True
     assert is_even(3) is False
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1

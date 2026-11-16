@@ -1,4 +1,4 @@
-from calc import add, multiply, is_even, power
+from calc import add, cube, multiply, is_even, power
 
 
 def test_add():
@@ -12,6 +12,11 @@ def test_multiply():
 def test_is_even():
     assert is_even(4) is True
     assert is_even(3) is False
+
+
+def test_cube():
+    assert cube(2) == 8
+    assert cube(-2) == -8
 
 
 def test_power():

@@ -16,3 +16,7 @@ def power(base, exp):
 
 def cube(x):
     return x ** 3
+
+
+def cube(x):
+    return x ** 3

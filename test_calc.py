@@ -19,6 +19,10 @@ def test_cube():
     assert cube(-2) == -8
 
 
+def test_cube():
+    assert cube(3) == 27
+
+
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1

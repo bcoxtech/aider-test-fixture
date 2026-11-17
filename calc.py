@@ -12,3 +12,7 @@ def is_even(n):
 
 def power(base, exp):
     return base ** exp
+
+
+def cube(x):
+    return x ** 3

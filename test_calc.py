@@ -1,4 +1,4 @@
-from calc import add, multiply, is_even, power
+from calc import add, cube, multiply, is_even, power
 
 
 def test_add():
